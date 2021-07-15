@@ -1,0 +1,98 @@
+<div class="contentWrapper1">
+  <img src="../assets/circle.svg" alt="circle" class="circle-right">
+  <div class="row rowWrapper1">
+    <div class="col">
+      <img src="../assets/blob-small.svg" alt="blob-small" class="blob-small">
+      <div class="blob-small-text">
+        We make it Super Simple
+      </div>
+      <img src="../assets/Line 3.svg" alt="line1" class="line1">
+      <img src="../assets/collect_img-video@2x.png" alt="collect-img" class="collect-img">
+      <img src="../assets/accounting_dots.svg" alt="dots1" class="dots1">
+    </div>
+    <div class="col">
+      <div class="calculatorDiv">
+        <div class="calculator-heading">
+          Eligibility Calculator
+        </div>
+        <div class="calculatorContent">
+          <div class="content1">
+            <div class="content1-label">
+              Monthly Income
+            </div>
+            <div class="content1-value">
+              ₹{{valA}}
+            </div>
+            <mat-slider min="100000" max="300000" step="1" [(value)]="valA"></mat-slider>
+            <div class="content-range1">
+              ₹1,00,000
+            </div>
+            <div class="content-range2">
+              ₹3,00,000
+            </div>
+          </div>
+          <br><br>
+          <div class="content2">
+            <div class="content2-label">
+              Monthly Expense
+            </div>
+            <div class="content2-value">
+              ₹{{valB}}
+            </div>
+            <mat-slider min="0" max="100000" step="1" [(value)]="valB"></mat-slider>
+          </div>
+          <div class="content3 mt-2">
+            <div class="content3-label">
+              Repayment Tenure
+            </div>
+            <select name="cars" id="cars" class="selectStyle">
+              <option value="6 months">6 months</option>
+              <option value="1 years">1 year</option>
+              <option value="1.5 years">1.5 years</option>
+              <option value="2 years">2 years</option>
+            </select>
+          </div>
+          <br>
+          <div class="content4 mt-2">
+            <div class="content4-label">
+              Do you have any existing loan
+            </div>
+            <div class="toggle-button">
+              <label class="toggle-control">
+                <input type="checkbox" checked="checked">
+                <span class="control"></span>
+              </label>
+            </div>
+          </div>
+          <br>
+          <div class="content5 mt-2">
+            <div class="content5-label">
+              EMI of existing loan (Optional)
+            </div>
+            <input type="text" name="emi" class="emi" placeholder="₹15000">
+          </div>
+        </div>
+      </div>
+      <img src="../../assets/accounting_dots.svg" alt="" class="dots2">
+      <div class="content4-smallDiv">
+        <div class="inner-wrap">
+          <div class="smallDiv-desc1">
+            Loan Amount
+          </div>
+          <div class="smallDiv-value1">
+            ₹1,00,000
+          </div>
+          <div class="smallDiv-desc2">
+            Your EMI will be
+          </div>
+          <div class="smallDiv-value2">
+            ₹15,000
+          </div>
+          <div class="small-div-button">
+            Get money
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

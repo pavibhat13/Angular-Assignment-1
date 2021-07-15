@@ -1,0 +1,230 @@
+.contentWrapper1 {
+  position: relative;
+  height: 85vh;
+}
+.circle-right {
+  position: absolute;
+  top: -227.9068603515625px;
+  left: 48%;
+  width: 55%;
+  transform: matrix(0.12, -0.99, 0.99, 0.12, 0, 0);
+  opacity: 0.5;
+  z-index: -1;
+}
+.blob-small {
+  width: 35%;
+  position: absolute;
+  left: -10%;
+  top: 34px;
+  z-index: -1;
+}
+
+.blob-small-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  line-height: 49px;
+  width: 407px;
+  height: 98px;
+  position: absolute;
+  top: 103px;
+  left: 15%;
+}
+.line1 {
+  width: 13%;
+  position: absolute;
+  top: 209px;
+  left: 15%;
+}
+.collect-img {
+  width: 38%;
+  position: absolute;
+  top: 280px;
+  left: 8%;
+}
+.dots1 {
+  width: 23%;
+  position: absolute;
+  top: 570px;
+  left: 28%;
+  z-index: -1;
+}
+
+.rowWrapper1 {
+  position: relative;
+}
+
+.calculatorDiv {
+  width: 28vw;
+  border-radius: 20px;
+  margin-top: 10%;
+  margin-left: 6%;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+.calculator-heading {
+  background-color: #fafbfd;
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  padding: 2%;
+  text-align: center;
+}
+.calculatorContent {
+  background-color: white;
+  padding: 6% 9%;
+}
+.content1-label,
+.content2-label,
+.content3-label,
+.content4-label,
+.content5-label {
+  color: #615f5f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+.content1-value,
+.content2-value {
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.content-range1 {
+  float: left;
+  color: #868484;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+.content-range2 {
+  float: right;
+  color: #868484;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+.selectStyle,
+.emi,
+.emi:focus,
+.emi::selection {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 22vw;
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  outline: none;
+}
+.content4 {
+  position: relative;
+}
+.toggle-button {
+  position: absolute;
+  top: -20%;
+  left: 69%;
+}
+.toggle-control {
+  display: block;
+  position: relative;
+  padding-left: 100px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.toggle-control input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.toggle-control input:checked ~ .control {
+  background-color: #663399;
+}
+.toggle-control input:checked ~ .control:after {
+  left: 27px;
+}
+.toggle-control .control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: darkgray;
+  transition: background-color 0.15s ease-in;
+}
+.toggle-control .control:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  background: white;
+  transition: left 0.15s ease-in;
+}
+.content4-smallDiv {
+  position: absolute;
+  top: 36%;
+  left: 82%;
+  text-align: center;
+  background-color: #663399;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  padding: 0 2%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.smallDiv-desc1,
+.smallDiv-desc2 {
+  font-size: 12px;
+  color: rgb(192, 185, 185);
+  padding: 5% 0;
+}
+.smallDiv-value1,
+.smallDiv-value2 {
+  font-size: 14px;
+  color: white;
+  padding: 5% 0;
+}
+.small-div-button {
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0px;
+  background-color: white;
+  color: #663399;
+  box-shadow: 0px 0px 20px #00000033;
+  border: 2px solid #663399;
+  border-radius: 24px;
+  margin-top: 10%;
+  padding: 4% 0;
+}
+.small-div-button:hover {
+  background-color: #4f1985;
+  color: white;
+  cursor: pointer;
+}
+.dots2 {
+  width: 23%;
+  position: absolute;
+  left: 69%;
+  top: 95%;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 2560px) {
+  .contentWrapper1 {
+    height: 70vh;
+  }
+  .dots1 {
+    top: 774px;
+  }
+  .content4-smallDiv {
+    height: 20vh;
+  }
+}

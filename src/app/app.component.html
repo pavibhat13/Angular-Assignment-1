@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light bg-custom sticky-top" (scroll)="onWindowScroll();">
+  <a class="navbar-brand" href="#"><img src="../assets/logo@2x.png" alt="brand-logo" class="brand-logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleCollapsed()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav" [ngClass]="{'collapse': collapsed, 'navbar-collapse': true}">
+    <ul class="navbar-nav navbar-ul">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Solutions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link loginButton" href="#">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link getStarted" href="#">Get Started</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<app-top-component></app-top-component>
+<app-bottom-component></app-bottom-component>
+
+
+
+
+
