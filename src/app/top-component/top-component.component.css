@@ -203,6 +203,7 @@
   border-radius: 24px;
   margin-top: 10%;
   padding: 4% 0;
+  text-transform: uppercase;
 }
 .small-div-button:hover {
   background-color: #4f1985;
